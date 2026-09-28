@@ -1,0 +1,20 @@
+# Zugangsdaten und Konfiguration – niemals committen
+wp-config.php
+.env
+.env.*
+*.sql
+*.sql.gz
+
+# Abhängigkeiten und Build-Ausgaben
+node_modules/
+vendor/
+
+# Logs und Caches
+*.log
+.cache/
+
+# Betriebssystem / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
